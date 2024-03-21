@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px burlywood;
+}
+
+form{
+    background-color: rgb(245, 241, 241);
+    border: 2px solid purple;
+    border-radius: 8px;
+    margin: auto;
+    width: 80%;
+    color: blue;
+}
+
+
+form>div{
+    margin: 1%;
+    text-align: center;
+}
+
+input{
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+input:focus{
+    background-color: white;
+}
+
+input:required{
+    background-color: white;
+}
+
+input[type=radio]:checked+label{
+    font-weight: bold;
+}
+
+input[type=radio]:checked+label,input[type=checkbox]:checked+label{
+    font-weight: bold;
+}
+
+i{
+    font-size: 30px;
+    color: yellowgreen;
+    text-align: center;
+}
+
+#botton{
+    color: violet;
+}
