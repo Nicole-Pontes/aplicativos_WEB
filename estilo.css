@@ -1,59 +1,72 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 body{
-    background-color: azure;
-}
-
-h1{
-    font-size: 30px;
-    text-align: center;
-    text-shadow: 1px 1px 2px burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(221, 228, 248);
 }
 
 form{
-    background-color: rgb(245, 241, 241);
-    border: 2px solid purple;
-    border-radius: 8px;
+    text-align: center;
+    border: 2px solid darkblue;
+    border-radius: 5px;
     margin: auto;
     width: 80%;
-    color: blue;
+    background-color: rgba(247, 230, 230, 0.884);
 }
 
-
-form>div{
-    margin: 1%;
+.center{
     text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    padding: 15px;
 }
 
-input{
-    border-radius: 5px;
-    border: solid 1px black;
-}
-
-input:focus{
-    background-color: white;
-}
-
-input:required{
-    background-color: white;
-}
-
-input[type=radio]:checked+label{
+.titulo{
+    color:brown;
     font-weight: bold;
-}
-
-input[type=radio]:checked+label,input[type=checkbox]:checked+label{
-    font-weight: bold;
+    font-size: 20px;
 }
 
 i{
-    font-size: 30px;
-    color: yellowgreen;
-    text-align: center;
+    text-align: left ;
 }
 
-#botton{
-    color: violet;
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+}
+
+label{
+    color: rgb(12, 12, 95);
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background-position: right center;
+    transition: 3s;
+}
+
+.estilobotao{
+    background-image: linear-gradient(to right,
+    #d61111 0%,
+    #470404 51%,#553131 100%);
+    margin: 10px 0;
+    padding: 5px 10px;
+    color:rgb(250, 250, 250);
+    border-radius: 5px;
+    background-size: 200% auto;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+    text-shadow: 1px 1px 2px darkblue;
+    }
+
+.estilobotao:hover{
+    cursor: pointer;
+    background-position: right center;
+    transition: 3s;
+}
+
+
+legend{
+    color: rgb(12, 12, 95);
 }
